@@ -1,8 +1,36 @@
-#This is a comment
 
-
-
+#correct
 1000000000 zIemIa 31.69
 1231243124 Mars 20.74
 890245364 uran 0.34
 0 Mars 0
+
+#wrong first
+-1 Ziemia
+-12335 weNus
+-123243254 UrAn
+wefdwef Merkury
+1.3 ziAmIa
+[] nepTun
+{} wenuS
+
+#wrong second
+12000 asas
+23454 dsdwk
+457 {}
+346 []
+2345 45
+3436 1.2
+
+#wrong both
+sassw sfeg
+[] {}
+[1,2,3] wdwqdw
+1.2 234
+-20000 kk
+{} kk
+{} 2.3
+sdsef {}
+sdawr [2,3]
+
+

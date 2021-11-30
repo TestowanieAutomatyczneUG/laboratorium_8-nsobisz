@@ -11,8 +11,13 @@ class AgeParameterizedFile(unittest.TestCase):
             continue
         else:
             data = line.split(" ")
-            inp1, inp2, result = int(data[0]), data[1], float(data[2].strip("\n"))
-            self.assertEqual(tmpFizzBuzz.how_old(inp1, inp2), result)
+            if len(data) == 3:
+                inp1, inp2, result = int(data[0]), data[1], float(data[2].strip("\n"))
+                self.assertEqual(tmpFizzBuzz.how_old(inp1, inp2), result)
+            elif len(data) == 2:
+                inp1, inp2 = data[0], data[1].strip("\n"),
+                self.assertRaises(Exception, tmpFizzBuzz.how_old, inp1, inp2)
+
       fileTest.close()
 
 
