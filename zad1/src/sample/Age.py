@@ -1,8 +1,9 @@
 
 class Age:
     def how_old(self, number, word):
-        if (type(number) == int and type(word) == str) or (type(number) == str and type(word) == str):
-            try:
+        if type(word) != str and type(number) != int:
+            raise Exception("Błąd, argumenty są złego typu danych")
+        else:
                 a = int(number)
                 b = word.lower()
                 if a < 0:
@@ -27,10 +28,8 @@ class Age:
                         return (round(a / (p * 84.016846), 2))
                     elif b == "neptun":
                         return (round(a / (p * 164.79132), 2))
-            except ValueError:
-                raise Exception("Błąd, drugi argument jest stringiem")
-        elif type(word) != str and type(number) != int:
-            raise Exception("Błąd, argumenty są złego typu danych")
+
+
 
 
 print(Age().how_old(890245364,"uran"))
