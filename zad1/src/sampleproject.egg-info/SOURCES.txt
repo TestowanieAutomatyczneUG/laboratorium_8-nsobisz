@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/age_data_test
+data/data_file
+src/sample/Age.py
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sampleproject.egg-info/PKG-INFO
+src/sampleproject.egg-info/SOURCES.txt
+src/sampleproject.egg-info/dependency_links.txt
+src/sampleproject.egg-info/entry_points.txt
+src/sampleproject.egg-info/requires.txt
+src/sampleproject.egg-info/top_level.txt
