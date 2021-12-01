@@ -14,7 +14,12 @@ class AgeParameterizedPackage(unittest.TestCase):
         (1000000000, "zIemIa", 31.69),
         (1231243124, "Mars", 20.74),
         (890245364, "uran", 0.34),
-        (0, "Mars", 0)
+        (0, "Mars", 0),
+        (1203300, "meRkUrY", 0.16),
+        (1203302323, "jowisz", 3.21),
+        (114663242, "wenus", 5.91),
+        (314663242, "saturn",0.34),
+        (733663242, "neptun", 0.14),
 
     ])
     def test_correct_data(self,number,word, expected):

@@ -8,7 +8,7 @@ class Age:
                 b = word.lower()
                 if a < 0:
                     raise Exception("Błąd, drugi argument musi być większy od zera")
-                elif b not in ["ziemia", "wenux", "mars", "saturn", "jowisz", "uran","neptun","merkury"]:
+                elif b not in ["ziemia", "wenus", "mars", "saturn", "jowisz", "uran","neptun","merkury"]:
                     raise Exception("Błąd, pierwszy argument musi być nazwą planety")
                 else:
                     p = 31557600
@@ -31,4 +31,4 @@ class Age:
 
 
 
-
+print(Age().how_old(314663242, "saturn"))
